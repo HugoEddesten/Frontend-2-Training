@@ -8,7 +8,7 @@
     
     user-select: none;
     padding: 2em;
-    
+    z-index: 0;
 }
 
 /* background-color: rgb(43, 124, 120); */
@@ -18,7 +18,7 @@
     
     overflow-x: hidden;
     overflow-y: hidden;
-
+    z-index: 1;
 }
 
 .goForwardButton {
@@ -27,6 +27,8 @@
     right: 5%;
     background-color:rgba(250, 235, 215, 0.6);
     border-radius: 2em;
+    z-index: 5;
+    
 }
 
 .goForwardButton:hover {
@@ -40,8 +42,8 @@
     height: 30px;
     left: 5%;
     background-color:rgba(250, 235, 215, 0.6);
-    
-    border-radius: 2em;    
+    border-radius: 2em;  
+    z-index: 5;  
 }
 
 .goBackButton:hover {

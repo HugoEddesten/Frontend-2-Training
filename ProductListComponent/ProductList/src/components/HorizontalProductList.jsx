@@ -27,7 +27,7 @@ const HorizontalProductList = ({ products }) => {
             <div ref={containerRef} className={styles.productsDiv} id="container">
                 <div className={styles.productList}>
                     {products.map((product, index) => (
-                        <Product key={index} name={product.name} price={product.price}/>
+                        <Product key={index} name={product.name} price={product.price} imgName={product.imgName}/>
                     ))}
                 </div>
             </div>

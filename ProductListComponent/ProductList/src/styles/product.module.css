@@ -4,25 +4,33 @@
     
     border: solid 2px;
     border-color: rgb(44, 43, 48);
-    border-right: 10px;
+    
     border-radius: 2em;
     color: rgb(216, 216, 216);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0.25em;
+    z-index: 2;
 }
 
 .productImage {
     min-width: 300px;
-    border-top-right-radius: 2em;
-    border-top-left-radius: 2em;
+    
+    border-top-right-radius: 1.89em;
+    border-top-left-radius: 1.89em;
     height: 300px;
+    margin-bottom: 0.5em;
+    z-index: 3;
 }
 
 p {
     padding-left: 1em;
     padding-bottom: 0.5em;
+    z-index: 3;
 }
 
 .product:hover {
     cursor: pointer;
+    transform: scale(1.01);
+    border-color: rgb(59, 59, 59);
+    
 }

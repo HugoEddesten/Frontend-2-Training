@@ -5,24 +5,24 @@ import styles from "./Styles/app.module.css"
 
 function App() {
   const productList = [
-    {name: "Bomull Röd", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
+    {name: "Bomull Kit", price: 79, imgName: "Yarn.webp"},
+    {name: "Bomull Tunn Kit", price: 99, imgName: "Yarn2.webp"},
+    {name: "Bomull Kit", price: 79, imgName: "Yarn.webp"},
+    {name: "Bomull Tunn Kit", price: 99, imgName: "Yarn2.webp"},
+    {name: "Bomull Kit", price: 79, imgName: "Yarn.webp"},
+    {name: "Bomull Tunn Kit", price: 99, imgName: "Yarn2.webp"},
+    {name: "Bomull Kit", price: 79, imgName: "Yarn.webp"},
+    {name: "Bomull Tunn Kit", price: 99, imgName: "Yarn2.webp"},
+
   ]
 
   const productList2 = [
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
-    {name: "Bomull Grön", price: 79},
+    {name: "Bomull Röd", price: 79, imgName: "Yarn2.webp"},
+    {name: "Bomull Röd", price: 79, imgName: "Yarn2.webp"},
+    {name: "Bomull Röd", price: 79, imgName: "Yarn2.webp"},
+    {name: "Bomull Röd", price: 79, imgName: "Yarn2.webp"},
+    {name: "Bomull Röd", price: 79, imgName: "Yarn2.webp"},
+
   ]
 
   return (
