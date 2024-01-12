@@ -3,7 +3,7 @@
 
 .herodiv{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     background-color:rgb(209, 177, 134);
     
@@ -14,14 +14,13 @@
     border-color: black;
 }
 
-.header {
-    
-}
+
 
 .heroimage{
     width:35em;
     height: 90%;
-
+    
+    right: 0em;
     border-top-left-radius: 5em;
     border-bottom-left-radius: 5em;
 }

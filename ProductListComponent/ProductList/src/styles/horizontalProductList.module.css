@@ -1,11 +1,13 @@
 .HorizontalProductComponent {
     display: flex;
     align-items: center;
-    background-color: rgb(211, 161, 96);
-
+    top: 5em;
+    background-color: rgb(30, 29, 32);
+    
     position: relative;
     
     user-select: none;
+    padding: 2em;
     
 }
 
