@@ -1,0 +1,18 @@
+.product {
+    
+    list-style: none;
+    
+    border: solid 2px;
+    border-color: rgb(131, 108, 78);
+    border-right: 10px;
+}
+
+.productImage {
+    min-width: 300px;
+
+    height: 300px;
+}
+
+.product:hover {
+    cursor: pointer;
+}

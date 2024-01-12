@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    overflow-y: auto; 
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+}
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    max-width: 80em;
+}

@@ -1,0 +1,55 @@
+.HorizontalProductComponent {
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 161, 96);
+
+    position: relative;
+    
+    user-select: none;
+    
+}
+
+/* background-color: rgb(43, 124, 120); */
+
+.productsDiv{
+    scroll-behavior: smooth;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.goForwardButton {
+    position: absolute;
+    height: 30px;
+    right: 5%;
+    background-color:rgba(250, 235, 215, 0.6);
+    border-radius: 2em;
+}
+
+.goForwardButton:hover {
+    transition: all 0.4s;
+    cursor: pointer;
+    background-color:rgba(250, 235, 215, 1);
+}
+
+.goBackButton {
+    position: absolute;
+    height: 30px;
+    left: 2%;
+    background-color:rgba(250, 235, 215, 0.6);
+    
+    border-radius: 2em;    
+}
+
+.goBackButton:hover {
+    transition: all 0.4s;
+    cursor: pointer;
+    background-color:rgba(250, 235, 215, 1);
+}
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
