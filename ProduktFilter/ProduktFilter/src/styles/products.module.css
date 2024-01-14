@@ -1,0 +1,10 @@
+.productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(30, 29, 32);
+    grid-gap: 1em;
+
+    min-width: 100%;
+   
+}

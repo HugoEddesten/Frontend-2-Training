@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 import HorizontalProductList from "./components/HorizontalProductList"
-import styles from "./Styles/app.module.css"
+import styles from "./styles/app.module.css"
 
 
 function App() {

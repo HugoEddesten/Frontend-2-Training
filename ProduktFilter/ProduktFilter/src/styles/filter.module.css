@@ -1,0 +1,16 @@
+.filterDiv {
+    border: solid 1px;
+    border-color: rgb(53, 53, 53);
+    background-color: rgb(81, 81, 90);
+
+    min-width: 20%;
+    
+}
+
+.button {
+
+}
+
+.button:visited {
+    background-color: aqua;
+}

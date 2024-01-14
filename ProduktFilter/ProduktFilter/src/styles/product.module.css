@@ -1,0 +1,28 @@
+.product {
+    border: solid 1px;
+    border-color: rgb(53, 53, 53);
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    
+    
+}
+
+p {
+    margin: 0.1em;
+    color: rgb(211, 211, 211);
+}
+
+.productImg {
+    width: 10em;
+    height: 10em;
+
+    
+}
+
+.product:hover {
+    transition: all 0.2s;
+    border-color: rgb(109, 109, 109);
+    cursor: pointer;
+    transform: scale(1.01);
+}
